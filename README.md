@@ -1,4 +1,4 @@
-<h1> STOCK MARKET ANALYSIS ON DAX COMPANIES </h1>
+<h1> STOCK MARKET ANALYSIS </h1>
 
 <h3>Source Data</h3>
 
@@ -32,9 +32,9 @@
       <td class="xl65" width="239" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 179pt;"><a href="https://docs.google.com/spreadsheets/d/1LRod_iuY3hciIgDthlw5Lf2v-1DbzFJm/edit?usp=sharing&ouid=114840663789662506255&rtpof=true&sd=true"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPrK-y05cfo5GM1Pg55QJLLirq54AByCaozg&s" width="50" height="30"/></a></td>
     </tr>
     <tr height="45" style="height: 34pt;">
-      <td height="45" class="xl65" width="297" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; text-align: center; height: 34pt; width: 223pt;">Stock Analysis DAX.twbx</td>
+      <td height="45" class="xl65" width="297" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; text-align: center; height: 34pt; width: 223pt;">Stock Analysis .twbx</td>
       <td class="xl65" width="328" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 246pt;">This file contains the Tableau visualisation plot details for all results</td>
-      <td class="xl65" width="239" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 179pt;"><a href="https://public.tableau.com/views/StockAnalysisonDAXCompanies/Closing_Price?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"><img src="https://i.pinimg.com/originals/86/35/88/863588a71e465cc3aa5d822c0feafea9.png" width="60" height="40"/></a></td>
+      <td class="xl65" width="239" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 12pt; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 0.5pt 0.5pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 179pt;"><a href="https://public.tableau.com/views/StockAnalysisonCompanies/Closing_Price?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"><img src="https://i.pinimg.com/originals/86/35/88/863588a71e465cc3aa5d822c0feafea9.png" width="60" height="40"/></a></td>
     </tr>
   </tbody>
 </table>
@@ -44,7 +44,7 @@
 **Abstract:**
 
 This project focuses on examining the variances in the stock market
-performance among DAX companies over a three-year period. Utilizing
+performance among companies over a three-year period. Utilizing
 stock market data obtained from the Yahoo and Alpha Vantage APIs, the
 study aims to identify the primary factors influencing these
 fluctuations and get insights into deeper understanding of market
@@ -59,20 +59,20 @@ ensure the data integrity and validity of the findings.
 
 **Keywords:**
 
-DAX companies, stock market analysis, performance trends, market
+stock market analysis, performance trends, market
 fluctuations, Yahoo API, Alpha Vantage API, stock price factors, trend
 analysis
 
 **1) Introduction:**
 
 The dynamic nature of the stock market requires deeper analysis to
-understand the performance trends of DAX companies. This project aims to
-delve into the stock market fluctuations experienced by DAX companies
+understand the performance trends of companies. This project aims to
+delve into the stock market fluctuations experienced by companies
 over a three-year period. By examining stock market data sourced from
 reliable APIs such as Yahoo and Alpha Vantage, we seek to identify and
 understand the factors contributing to these fluctuations. The insights
 gained will provide a comprehensive understanding of the market behavior
-of DAX companies, offering valuable information for investors, analysts,
+of companies, offering valuable information for investors, analysts,
 and stakeholders.
 
 **2) Methods:**
@@ -92,19 +92,19 @@ refine the dataset for following analytical tasks
 Data availability refers to the process of ensuring that the required
 data for analysis is readily available and accurate. This subsection
 describes how the data on ticker symbols as well as associated
-information were gathered for the DAX companies included in the study.
+information were gathered for the companies included in the study.
 
 **2.1.1.1) Ticker Symbol Information:**
 
-The ticker symbols for this research on DAX companies were collected
-using the pyTickerSymbols Python package. We chose data for DAX
+The ticker symbols for this research on companies were collected
+using the pyTickerSymbols Python package. We chose data for 
 companies that are readily available for the period of 3 years, ensuring
 comprehensive analysis. The data selection for the source code is
 **\[Mentioned in Appendix 3\].**
 
 **2.1.1.2) Ticker Information with Historical Data:**
 
-The ticker information for this research on DAX companies was collected
+The ticker information for this research on companies was collected
 from Yahoo Finance API using a caching approach to prevent server
 overload. This data covers the period from 2021 until the present. It
 includes two types of data: company-related information, which is stored
@@ -157,7 +157,7 @@ examination
 
 After filtering out unnecessary records, we included new columns
 **\[Mentioned in Appendix 1\]** using statistical formulas **\[Mentioned
-in Appendix 3\]** to improve DAX company performance. Once these columns
+in Appendix 3\]** to improve  company performance. Once these columns
 were integrated, the enriched dataset was stored in the
 \"STOCK_HISTORY\" as data mart table, allowing for comprehensive trend
 analysis and strategic decision-making based on historical stock data.
@@ -169,7 +169,7 @@ and improving operational efficiencies.
 
 Stock trend analysis web scraping has been using the Alpha Vantage API.
 The extracted data includes feed-related information as well as unique
-identifiers like publication time and DAX company symbols. Upon
+identifiers like publication time and  company symbols. Upon
 extracting and identifying the necessary data, it was then loaded into
 the \"ARTICLES table\" structured as **\[Mentioned in Appendix 1\].**
 
@@ -178,11 +178,11 @@ the \"ARTICLES table\" structured as **\[Mentioned in Appendix 1\].**
 This section presents the findings derived from the analysis of various
 metrics and trends observed during the study.
 
-**2.3.1) Comparative Stock Prices: Adjusted Closing Prices of DAX
+**2.3.1) Comparative Stock Prices: Adjusted Closing Prices of 
 Companies:**
 
 The following line graph offers a detailed visual representation of the
-adjusted closing prices of various DAX companies from 2021 to 2024. Each
+adjusted closing prices of various  companies from 2021 to 2024. Each
 company is represented by a separate-colored line, with labels
 identifying them on the right side of the graph. The x-axis spans the
 years (2021 to 2024), while the y-axis denotes adjusted closing prices
@@ -202,12 +202,12 @@ Linde plc, and SPDR Bloomberg Barclays Mortgag reveal indicate slight
 growth patterns, stabilization, or decline affected by industry-specific
 characteristics and market conditions. These findings highlight the
 necessity of maintaining adjusted closing prices over time to assess
-financial performance and market trends impacting each DAX company
-within the DAX index.
+financial performance and market trends impacting each  company
+within the  index.
 
-**2.3.2) Analyzing Trading Volumes Among DAX Stocks:**
+**2.3.2) Analyzing Trading Volumes Among  Stocks:**
 
-The plot of trade volume data for the analysed DAX companies shows
+The plot of trade volume data for the analysed  companies shows
 distinct patterns over time. AAR Corp. and Merck & Company, Inc. start
 with stable volumes in 2021, but both experience a fall by 2024 due to
 internal issues affecting market engagement. Burning Rock Biotech
@@ -235,10 +235,10 @@ behavior. These findings highlight the significance of monitoring
 trading volumes as a measure of market awareness and company performance
 in financial environments.
 
-**2.3.3) Aggregate Yearly Returns: DAX Companies in 2024**
+**2.3.3) Aggregate Yearly Returns:  Companies in 2024**
 
 The below figure **\[Mentioned in Appendix 5\]** shows the monthly
-returns of various DAX companies from January to July for the year 2024.
+returns of various  companies from January to July for the year 2024.
 In January, SPDR Bloomberg Barclays Mortgage had the highest return at
 0.996, while DTE Energy Company has the lowest return of -1.053.
 February continued with SPDR Bloomberg Barclays Mortgage leading at
@@ -268,13 +268,13 @@ and Energizer Holdings, Inc. both showed negative or low returns with
 variable trends. AAR Corp. and Minerals Technologies Inc. experienced
 varying returns with no apparent trend, reflecting varying market
 responses over months. These findings highlight the diverse performance
-tracks of the DAX companies over the observed period.
+tracks of the  companies over the observed period.
 
-**2.3.4) Comparison of Sharpe Ratio Across DAX Companies**
+**2.3.4) Comparison of Sharpe Ratio Across  Companies**
 
 The below figure **\[Mentioned in Appendix 5\]** shows a detailed
 breakdown of the average Sharpe ratios across several companies from
-2021 to 2024. Each year is displayed in a different row, indicating DAX
+2021 to 2024. Each year is displayed in a different row, indicating 
 companies on the X-axis and the Y-axis measures the average Sharpe
 ratio, highlighting fluctuations in performance over the analyzed year
 period
@@ -357,13 +357,13 @@ height="2.8737839020122484in"}
 **Conclusion:**
 
 In conclusion, this study provides a detailed analysis of the stock
-market performance of DAX companies over the three-year period. Despite
+market performance of  companies over the three-year period. Despite
 several limitations, such as the lack of long-term historical data and
 potential conflicts between different data sources, the study
 successfully identifies significant elements driving stock price
 fluctuations. The findings provide a detailed explanation of the market
 behavior, showing the key factors that influence performance trends.
 These insights contribute to a better knowledge of the stock market
-trends of DAX companies, allowing investors and analysts to make more
+trends of  companies, allowing investors and analysts to make more
 educated decisions.
 
